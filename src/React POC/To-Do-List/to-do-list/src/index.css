@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 2rem;
+  /* margin: 1em; */
+  text-align: center;
+  height: 100vh;
+}
+.App{
+  position: relative;
+  min-height: 100vh;
+}
+header{
+  background-color: aqua;
+}
+.container{
+ padding-bottom: 5rem;
+}
+.page{
+  display: inline-block;
+  border: 1px solid black;
+}
+.page li{
+  list-style-type: none;
+}
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: mediumblue;
+  color: aliceblue;
+}

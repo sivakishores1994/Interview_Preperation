@@ -1,0 +1,26 @@
+.valueBox{
+  margin-left: 30%;
+}
+.valueBox1{
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  border: 10px solid #2196F3;
+  background-color: #f7f7f7;
+  margin-bottom: 10px;
+}
+
+.valueBox2{
+  margin: auto;
+  width: 300px;
+  height: 30px;
+  border: 10px solid #2196F3;
+  background-color: #f7f7f7;
+  margin-bottom: 10px;
+}
+
+.valueButton{
+  margin: auto;
+  width: 325px;
+  height: 30px;
+}
