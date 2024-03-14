@@ -1,7 +1,8 @@
 function removeDuplictesFromArray(input){
     let newArr=[];
     for(let i=0;i<input.length;i++){
-        if(newArr.indexOf(input[i])===-1){
+        if(newArr.indexOf(input[i])===-1){   ///newArr.indexOf(6) means if 6 is presnt in array it returns its position 7
+                                              /// if newArr.indexOf(5) meand 5 is not there in array so it returns -1;
             newArr += input[i];
         }
     }
