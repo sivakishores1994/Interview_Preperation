@@ -1,11 +1,11 @@
-
-let input=61;
-
+let input=23;
+let temp=''
 for(let i=0;i<input/2;i++){
     if(input%2===0){
-        console.log("not prime");
+       temp='its not prime'
     }
     else{
-         console.log("its prime");
+         temp="its prime";
     }
 }
+console.log(temp)
