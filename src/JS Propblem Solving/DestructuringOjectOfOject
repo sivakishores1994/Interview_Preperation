@@ -3,6 +3,7 @@ const obj={name:'siva',job:{it:'wipro'}}
 const {job:{it}}=obj;
 console.log(it); //op: wipro
 
-const obj={name:'siva',job:{it:'wipro',dept:{'ODC','2'}}}
+const obj={name:'siva',job:{it:'wipro',dept:{ODC:'2'}}}
 const {job:{dept:{ODC}}}=obj
-console.log(odc); //2
+console.log(ODC); //2
+
