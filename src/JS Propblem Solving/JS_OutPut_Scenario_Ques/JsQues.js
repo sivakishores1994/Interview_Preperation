@@ -355,3 +355,12 @@ console.log(!true - true);                           //OP: -1
 
 //35
 console.log(true + +'10');                      //op: 11, because + will convert "10" to 10 . true is 1 so 1+10=11
+
+//36
+
+var x=10;
+function call(){
+delete x;
+  return x;
+};
+console.log(call())   								//op: 10
