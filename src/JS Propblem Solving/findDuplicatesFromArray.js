@@ -19,6 +19,27 @@ console.log(newObj.filter(num=> num !==1)
 //op: 
 // [ [ 'hi', 2 ], [ 'siva', 2 ] ]
 
+            let arr=['hi','hello','hi','siva','siva','siva','hi'];
+
+let obj={}
+for(let values of arr){
+if(values in obj){
+	obj[values]=obj[values]+1
+}
+else{
+	obj[values]=1;
+}
+}
+
+/* console.log(obj); */
+
+Object.entries(obj).forEach(([key,value])=>{
+	if(value>1){
+    console.log(key + ': ' + value);
+  }
+})
+
+
 //using map and filter
 
 const arr1=[1,2,3,2,4,3,1,1,2];
