@@ -1,8 +1,11 @@
-var a= [{id:1, firstName:'Anil'},{id:2, firstName:'Akhil'}];
-	var b =[{id:2, lastName:'Kumar'},{id:1, lastName:'Singh'}];
- let filtered= a.map(num1=> [num1,b.filter(item=> item.id==num1.id)]
- );
- console.log(filtered);
+var a = [{id:1, firstName:'Anil'}, {id:2, firstName:'Akhil'}];
+var b = [{id:2, lastName:'Kumar'}, {id:1, lastName:'Singh'}];
+var result=[];
 
-//still expected output not came need to find it
-	// 	needed output [{id:1, firstName:'Anil', lastName:'Singh'},{id:2, firstName:'Akhil', lastName:'Kumar'}]
+a.forEach(obj1=>{
+var newObj= b.find(obj=> obj.id===obj1.id);
+if(newObj){
+	result.push({...obj1,...newObj})
+}
+})
+console.log(result)
