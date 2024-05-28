@@ -1,11 +1,24 @@
-let input=23;
-let temp=''
-for(let i=0;i<input/2;i++){
-    if(input%2===0){
-       temp='its not prime'
+function isPrime(num){
+	
+  if(num<2){
+  	return false
+  }
+  
+  for(let i=2;i<=Math.sqrt(num);i++){
+    if(num%i===0){
+    	return false
     }
-    else{
-         temp="its prime";
-    }
+    	
+  }
+  
+  return true
+
 }
-console.log(temp)
+
+
+if(isPrime(10)){
+	console.log("Its Prime")
+}
+else{
+	console.log("its not Prime")
+}
