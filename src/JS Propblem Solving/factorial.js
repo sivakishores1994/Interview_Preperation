@@ -1,7 +1,6 @@
-
-let num=5; // 1*2*3*4*5
-let output=1;
-for(let i=1;i<=num;i++){
-    output=output*i;
+let num=5;
+let temp=1;
+for(let i=num;i>0;i--){
+			temp= temp*i;
 }
-console.log(output); //op:120
+console.log(temp);   //op: 120
