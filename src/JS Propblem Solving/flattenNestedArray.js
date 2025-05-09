@@ -30,7 +30,10 @@ function flattenArrUsingLoop(arr){
 }
 console.log(flattenArrUsingLoop(arr));
 
-
+let array = [1,2,[3,4],5],6];
+let resultArray = array.reduce((a,b)=>reduce((a,b)=>a.concat(b,[]);
+let FinalArray = resultArray.reduce((a,b)=>reduce((a,b)=>a.concat(b,[]);
+console.log("result",FinalArray)
 //using flat() inbuit func
 
 function flattenArrUsingflat(arr){
